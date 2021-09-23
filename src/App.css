@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+
+
+
+
 body {
   background: #a8ff78;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
 }
 
 .App {
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   border:1px outset ;
   text-align: center;
@@ -21,13 +29,18 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
 
  
 }
+.title {
+
+  font-family: 'Dosis', sans-serif;
+
+}
 .Done {
   text-decoration: line-through;
 }
 .text-imput{
   margin-top: 20px;
   background: border-box;
-  color: #ffffffa6;
+  color: black;
   border-top: none;
   width: 200px;
   padding: 5px;
@@ -77,4 +90,9 @@ background: border-box;
   border-top: none;
   width: 200px;
   padding: 5px;
+}
+.btn {
+
+
+  background-color: #2980B9;
 }

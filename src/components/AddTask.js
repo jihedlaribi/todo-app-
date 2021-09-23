@@ -15,10 +15,10 @@ export const AddTask = () => {
    
     return (
         <div  className='input'>
-            <h1>what is your plane today?</h1>
+            <h1 className='title'>what is your plane today?</h1>
                 <input className='text-imput'
             type='text'
-           placeholder='enter your todo'
+           placeholder='Enter your todo '
            name='todo'
            onChange={(e) => setTodo(e.target.value)} 
            value={todo}/>
